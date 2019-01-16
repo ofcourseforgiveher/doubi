@@ -238,8 +238,8 @@ Set_iptables(){
 		chkconfig --level 2345 iptables on
 	else
 		iptables-save > /etc/iptables.up.rules
-		echo -e '#!/bin/bash\n/sbin/iptables-restore < /etc/iptables.up.rules' > /etc/network/if-pre-up.d/iptables
-		chmod +x /etc/network/if-pre-up.d/iptables
+		echo -e '#!/bin/bash\n/sbin/iptables-restore < /etc/iptables.up.rules' > /etc/network/if-up.d/iptables
+		chmod +x /etc/network/if-up.d/iptables
 	fi
 }
 Update_Shell(){
