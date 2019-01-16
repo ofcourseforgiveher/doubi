@@ -199,7 +199,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ofcourseforgiveher/doubi/master/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
 ```
 
 ---
